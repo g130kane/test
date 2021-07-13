@@ -4,7 +4,7 @@
 
 double myRoot(double x) // x の平方根を返す関数。x >= 0 ではないとき exit(1) とする。 受け渡しがdouble型であるためintからdoubleに変更
 {
-  int y;
+  double y; //受け渡しがdouble型であるためintからdoubleに変更
   if( x < 0 ){ //x <= 0からx < 0に変更
     exit(1);
   }
